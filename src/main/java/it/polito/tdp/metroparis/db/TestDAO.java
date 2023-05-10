@@ -16,6 +16,7 @@ public class TestDAO {
 			System.out.println(dao.readFermate()) ;
 			System.out.println(dao.readLinee()) ;
 
+
 		} catch (Exception e) {
 			throw new RuntimeException("Test FAILED", e);
 		}
